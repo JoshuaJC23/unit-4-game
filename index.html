@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" tyep="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
     <title>Crystal Game</title>
 </head>
 <body>
@@ -21,40 +27,43 @@
 
         <div class="row">
             <div class="col-md-12">
-                <p>
+                <p class="info">
                     You will be given a random number at the start of the game.
                 </p>
-                <p>
+                <p class="info">
                     There are four crystals below. By clicking on a crystal you will add a specific amount of points to your score.
                 </p>
-                <p>
+                <p class="info">
                     You win the game by matching your total score to the random number; you lose the game if your total score goes above the random number.
                 </p>
-                <p>
+                <p class="info">
                     The value of each crystal is hidden. To find out the value you need to click on them, which will be your score points.
                 </p>
-                <p>
+                <p class="info">
                     Each time the game starts or restarts, the values of the crystals will change and so will the random number.
                 </p>
             </div>
-
-
         </div>      
         
         <div class="row">
             <div class="col-md-3">
                 <p>Random Number: <span id="randomNumber"></span></p>
             </div>
-            <div class="col-md-3">
-                <p>Wins: <span id="wins"></span></p>
-                <p>Losses: <span id="losses"></span></p>
 
+            <div class="col-md-3">
+                <p class="score"><strong>Wins: <span id="wins"></span></strong></p>
+                <p class="score"><strong>Losses: <span id="losses"></span></strong></p>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-12">
-                <span id="rowOfCrystals"></span>
+                <div class="crystals">
+                    <img src="assets/images/crystal1.jpg" class="col" id="c1" alt="blue"> 
+                    <img src="assets/images/crystal2.jpg" class="col" id="c2" alt="teal">
+                    <img src="assets/images/gem1.jpg" class="col" id="c3" alt="dark blue">
+                    <img src="assets/images/gem2.jpg" class="col" id="c4" alt="green">
+                </div>
             </div>
         </div>
 
