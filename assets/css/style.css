@@ -22,14 +22,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: larger;
+}
+
+#ptag {
+    background-color: blueviolet;
+    border: cyan solid 4px;
 }
 
 h1{
     font-family: 'Bungee Inline', cursive;
-}
-
-.score{
-    font-family: 'Indie Flower', cursive;
 }
 
 body {
@@ -48,10 +50,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+    background-color: blueviolet;
+    border: cyan solid 4px;
 }
 
 #result {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+    background-color: blueviolet;
+    border: cyan solid 4px;
 }
