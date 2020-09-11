@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-    <title>Crystal Game</title>
+    <title>Crystal Collector</title>
 </head>
 <body>
     
@@ -19,7 +19,7 @@
 
         <div class = "row">
 
-            <div class = "col-md-12">
+            <div class = "col-md-12" id="name">
                 <h1>Crystal Collector</h1>
             </div>
         
@@ -37,7 +37,7 @@
                     You win the game by matching your total score to the random number; you lose the game if your total score goes above the random number.
                 </p>
                 <p class="info">
-                    The value of each crystal is hidden. To find out the value you need to click on them, which will be your score points.
+                    The value of each crystal is hidden. To find out the value,  you need to click on them, which will be your score points.
                 </p>
                 <p class="info">
                     Each time the game starts or restarts, the values of the crystals will change and so will the random number.
@@ -45,7 +45,7 @@
             </div>
         </div>      
         
-        <div class="row">
+        <div class="row" id="count">
             <div class="col-md-3">
                 <p>Random Number: <span id="randomNumber"></span></p>
             </div>
@@ -67,20 +67,13 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <p>Your total score is:</p>
-            </div>
-        </div>
+        <br>
 
         <div class="row">
-            <div class="col-me-12">
-                <span id="totalScore"></span>
+            <div class="col-md-12" id="result">
+                <p>Your total score is: <span id="totalScore"></span></p>
             </div>
         </div>
-
-
-
 
     </div>
 

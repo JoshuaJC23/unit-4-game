@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 .crystals{
     width: 50px;
     height: 50px;
     display: inline;
+    margin-left: 200px;
 }
 .crystal-image{
     width: 150px;
@@ -14,6 +19,9 @@
     font-family: 'Fredoka One', cursive;
     font-family: 'Press Start 2P', cursive;
     font-family: 'Aladin', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -22,4 +30,28 @@ h1{
 
 .score{
     font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border: cyan solid 4px;
+}
+
+#count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
